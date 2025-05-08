@@ -32,7 +32,7 @@
             pictureBox1 = new PictureBox();
             txtUsuario = new TextBox();
             txtContraseña = new TextBox();
-            tnIngresar = new Button();
+            btnngresar = new Button();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
             SuspendLayout();
             // 
@@ -64,22 +64,23 @@
             txtContraseña.UseSystemPasswordChar = true;
             txtContraseña.TextChanged += txtContraseña_TextChanged;
             // 
-            // tnIngresar
+            // btnngresar
             // 
-            tnIngresar.Font = new Font("Inter Light", 19F);
-            tnIngresar.Location = new Point(451, 538);
-            tnIngresar.Name = "tnIngresar";
-            tnIngresar.Size = new Size(316, 58);
-            tnIngresar.TabIndex = 3;
-            tnIngresar.Text = "Ingresar";
-            tnIngresar.UseVisualStyleBackColor = true;
+            btnngresar.Font = new Font("Microsoft Sans Serif", 19F);
+            btnngresar.Location = new Point(451, 538);
+            btnngresar.Name = "btnngresar";
+            btnngresar.Size = new Size(316, 58);
+            btnngresar.TabIndex = 3;
+            btnngresar.Text = "Ingresar";
+            btnngresar.UseVisualStyleBackColor = true;
+            btnngresar.Click += btnngresar_Click;
             // 
             // LoginForm
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(1272, 608);
-            Controls.Add(tnIngresar);
+            Controls.Add(btnngresar);
             Controls.Add(txtContraseña);
             Controls.Add(txtUsuario);
             Controls.Add(pictureBox1);
@@ -96,6 +97,6 @@
         private PictureBox pictureBox1;
         private TextBox txtUsuario;
         private TextBox txtContraseña;
-        private Button tnIngresar;
+        private Button btnngresar;
     }
 }

@@ -9,7 +9,6 @@ namespace InvenPharma
 
         private void pictureBox1_Click(object sender, EventArgs e)
         {
-
         }
 
         private void btnLogin_Click(object sender, EventArgs e)
@@ -26,7 +25,6 @@ namespace InvenPharma
 
         private void Form1_Load(object sender, EventArgs e)
         {
-            this.cl
         }
     }
 }
