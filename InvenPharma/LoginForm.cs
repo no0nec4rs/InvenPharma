@@ -16,7 +16,8 @@
             string usuario = "admin";
             string pass = "admin";
 
-            if (txtContraseña.Text == pass && txtUsuario.Text == usuario)
+            if (txtContraseña.Text == pass
+                && txtUsuario.Text == usuario)
             {
                 txtUsuario.Clear();
                 txtContraseña.Clear();
@@ -27,7 +28,8 @@
             }
             else
             {
-                MessageBox.Show("Usuario o contraseña incorrectos.", "Error de autenticación", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                MessageBox.Show("Usuario o contraseña incorrectos.", "Error de autenticación",
+                    MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
         }
     }
